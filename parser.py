@@ -34,10 +34,10 @@ def scrape_data2(parentElement):
 def insert_to_database(post_array):
     try:
         connection = psycopg2.connect(user="ayaz",
-                                  password="XeP/2ogLu4D3",
-                                  host="206.81.17.109",
-                                  port="5432",
-                                  database="ayazik")
+                                  password="",
+                                  host="",
+                                  port="",
+                                  database="")
         
         cursor = connection.cursor()
 
